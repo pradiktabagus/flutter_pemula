@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pemula/detail_screen.dart';
-import 'package:flutter_pemula/first_screen.dart';
-import 'package:flutter_pemula/responsive_screen.dart';
-import 'package:flutter_pemula/scrolling_screen.dart';
+import 'package:flutter_pemula/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ResponsiveScreen(),
+      home: MainScreen(),
     );
   }
 }
